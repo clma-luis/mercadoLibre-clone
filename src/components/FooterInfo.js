@@ -8,7 +8,7 @@ export default function FooterInfo() {
   const [hoverFooter, setHoverFooter] = useState(false)
 
   return (
-    <div className="pb-20">
+    <div className="pb-20 select-none">
       <div
         className="flex cursor-pointer items-center justify-center text-slate-600  "
         onClick={() => {
@@ -37,17 +37,17 @@ export default function FooterInfo() {
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/">
                 <a className="hover:underline">Investor relations</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/">
                 <a className="hover:underline">Tendencias</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/">
                 <a className="hover:underline">Sustentabilidad</a>
               </Link>
             </li>
@@ -58,17 +58,17 @@ export default function FooterInfo() {
           <span className="flex flex-col items-center">Otros sitios</span>
           <ul className=" flex flex-col items-center text-gray-400">
             <li>
-              <Link href=" ">
+              <Link href="/">
                 <a className="hover:underline">Developers</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/">
                 <a className="hover:underline">Mercado Pago</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/">
                 <a className="hover:underline">Mercado Ads</a>
               </Link>
             </li>
@@ -78,22 +78,22 @@ export default function FooterInfo() {
           <span className="flex flex-col items-center">Ayuda</span>
           <ul className=" flex flex-col items-center text-gray-400">
             <li>
-              <Link href=" ">
+              <Link href="/">
                 <a className="hover:underline">Comprar</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/">
                 <a className="hover:underline">Vender</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/">
                 <a className="hover:underline">Resoluión de problemas</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/">
                 <a className="hover:underline">Centro de seguridad</a>
               </Link>
             </li>
@@ -103,17 +103,17 @@ export default function FooterInfo() {
           <span className="flex flex-col items-center">Redes sociales</span>
           <ul className=" flex flex-col items-center text-gray-400">
             <li>
-              <Link href=" ">
+              <Link href="/">
                 <a className="hover:underline">Twitter</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/">
                 <a className="hover:underline">Facebook</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/">
                 <a className="hover:underline">Youtube</a>
               </Link>
             </li>
@@ -123,12 +123,12 @@ export default function FooterInfo() {
           <span className="flex flex-col items-center">Mi cuenta</span>
           <ul className=" flex flex-col items-center text-gray-400">
             <li>
-              <Link href=" ">
+              <Link href="/">
                 <a className="hover:underline">Ingresa</a>
               </Link>
             </li>
             <li>
-              <Link href="">
+              <Link href="/">
                 <a className="hover:underline">Vender</a>
               </Link>
             </li>

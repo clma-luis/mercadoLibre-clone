@@ -22,7 +22,7 @@ export default function SubNavbar() {
       </div>
       
       <ul className=" lg:visible flex justify-start">
-            <li onMouseEnter={() => {
+            <li onClick={() => {
                 setHover(!hover);
               }}
               onMouseLeave={() => {
@@ -48,29 +48,29 @@ export default function SubNavbar() {
                           </li>
                         </ul>
                         </li>
-                    <li className='liStyle'><Link href="#"><a>Electrodomésticos</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Hogar y Muebles</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Deportes y Fitness</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Bellez y Cuidado personal</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Herramientas</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Construcción</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Industrias y Oficinas</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Juegos y Juguetes</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Bebés</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Accesorios para Vehículos</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Moda</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Salud y Equipamiento Médico</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Vehículos</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Inmuebles</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Tiendas Oficiales</a></Link></li>
-                    <li className='liStyle'><Link href="#"><a>Ver más categorías</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Electrodomésticos</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Hogar y Muebles</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Deportes y Fitness</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Bellez y Cuidado personal</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Herramientas</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Construcción</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Industrias y Oficinas</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Juegos y Juguetes</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Bebés</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Accesorios para Vehículos</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Moda</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Salud y Equipamiento Médico</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Vehículos</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Inmuebles</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Tiendas Oficiales</a></Link></li>
+                    <li className='liStyle'><Link href="/"><a>Ver más categorías</a></Link></li>
                 </ul>
             </li>
-            <li className='hidden lg:block mr-4'><Link href="#"><a>Ofertas</a></Link></li>
-            <li className='hidden lg:block mr-4'><Link href="#"><a>Historial</a></Link></li>
-            <li className='hidden lg:block mr-4'><Link href="#"><a>Tiendas oficiales</a></Link> </li>
-            <li className='hidden lg:block mr-4'><Link href="#"><a>Vender</a></Link></li>
-            <li className=' hidden lg:block mr-4'><Link href="#"><a>Ayudar</a></Link></li>
+            <li className='hidden lg:block mr-4'><Link href="/"><a>Ofertas</a></Link></li>
+            <li className='hidden lg:block mr-4'><Link href="/"><a>Historial</a></Link></li>
+            <li className='hidden lg:block mr-4'><Link href="/"><a>Tiendas oficiales</a></Link> </li>
+            <li className='hidden lg:block mr-4'><Link href="/"><a>Vender</a></Link></li>
+            <li className=' hidden lg:block mr-4'><Link href="/"><a>Ayudar</a></Link></li>
         
       </ul>
 
@@ -79,7 +79,7 @@ export default function SubNavbar() {
         <li className='hidden lg:block mr-4'>Ingresa</li>
         <li className='hidden lg:block mr-4'>Mis compras</li>
       </ul>
-      <div className={hover || subcategoryMenu ? 'absolute right-0 top-12  w-screen h-screen  bg-black opacity-25 text-white' : 'hidden'}></div>
+      <div className={hover || subcategoryMenu ? 'absolute right-0 top-12  w-screen h-screen  bg-black opacity-25 text-white z-10' : 'hidden'}></div>
       <div className="relative">
       
       </div>
