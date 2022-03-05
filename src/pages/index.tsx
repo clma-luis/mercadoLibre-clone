@@ -5,6 +5,7 @@ import Slider from '../components/Slider'
 import ProducsHome from '../components/ProductsHome'
 import BannerProduct from '../components/BannerProduct'
 import BestStores from '../components/bestStores/BestStores'
+import Icon from '../components/categories/icon'
 import InfoMeli from '../components/InfoMeli'
 import FooterInfo from '../components/FooterInfo'
 
@@ -29,6 +30,10 @@ const Home: NextPage = () => {
 
         <div className="m-10">
           <BestStores />
+        </div>
+
+        <div>
+          <Icon />
         </div>
 
         <InfoMeli />
