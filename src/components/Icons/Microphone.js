@@ -3,18 +3,32 @@ import * as React from "react"
 export default function Microphone (props) {
 
     return(
-        <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 32 32"
-        fill="none"
+      <svg
+      id="Icons"
+      xmlns="http://www.w3.org/2000/svg"
+      x={0}
+      y={0}
+      viewBox="0 0 30 26"
+      style={{
+        enableBackground: 'new 0 0 32 32',
+        fill: 'none'
+      }}
+      
+      xmlSpace="preserve"
+      {...props}
+    >
+      
+      <style>
+        {
+          `.st0{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}`
+        }
+      </style>
+      <path
         stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth={2}
-        {...props}
-      >
-          
-        <path d="M16 2c-4 0-4 4-4 4v10s0 4 4 4 4-4 4-4V6s0-4-4-4ZM8 17s0 7 8 7 8-7 8-7M13 29h6m-3-5v5" />
-      </svg>
+        d="M11.5 21C4.118 20.543 1.424 15.476 1 13c.636 2.667 3.627 8 10.5 8zm0 0c2.864 0 8.973-1.6 10.5-8M5 25h6.5m6.5 0h-6.5m0 0v-4"
+      />
+      <rect width={11} height={17} x={6.5} y={0.5} stroke="currentColor" rx={5.5} />
+      <path stroke="currentColor" d="M6 11h4m4 0h4M6 6h4m4 0h4" />
+    </svg>
       )
 } 

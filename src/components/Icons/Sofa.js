@@ -7,22 +7,28 @@ export default function SvgComponent(props) {
       xmlns="http://www.w3.org/2000/svg"
       x={0}
       y={0}
-      viewBox="0 0 32 32"
+      viewBox="0 0 30 26"
       style={{
         enableBackground: 'new 0 0 32 32',
+        fill: 'none'
       }}
+      
       xmlSpace="preserve"
       {...props}
     >
-      <style>
+     <style>
         {
-          '.st0{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}'
+          `.st0{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}`
         }
       </style>
-      <path
-        className="st0"
-        d="M9 29H5c-1.1 0-2-.9-2-2V17c0-1.7 1.3-3 3-3h0c1.7 0 3 1.3 3 3v12zM27 29h-4V17c0-1.7 1.3-3 3-3h0c1.7 0 3 1.3 3 3v10c0 1.1-.9 2-2 2zM9 19h14v10H9zM6 14V7.8C6 5.7 7.7 4 9.8 4h12.3C24.3 4 26 5.7 26 7.8V14"
-      />
-    </svg>
+    <path
+      stroke="currentColor"
+      d="M5.017 12V2.692c-.083-.47.1-1.466 1.498-1.692h12.737c.583.094 1.748.564 1.748 1.692V12"
+    />
+    <path
+      stroke="currentColor"
+      d="M4.273 21.486H1v-8.043c2.182-2.413 4.727-1.005 5.727 0v3.016h12.819v-3.016c2.4-2.614 4.636-1.089 5.454 0v8.043H4.273zm0 0V24M21 21.641V24"
+    />
+  </svg>
   )
 }

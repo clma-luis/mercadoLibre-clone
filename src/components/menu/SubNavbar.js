@@ -12,7 +12,7 @@ export default function SubNavbar() {
     const [subcategoryMenu, setSubcategoryMenu] = useState(false);
     
   return (
-    <div className=" relative select-none flex w-full flex-wrap items-center justify-between bg-yellow-300 p-1 text-slate-600 lg:px-10 text-sm">
+    <div className=" relative select-none flex w-full flex-wrap items-center justify-between bg-yellow-300 p-1 text-slate-600 lg:px-10 text-sm ">
       <div className="flex cursor-pointer pb-2">
         <LocationMarkerIcon className="w-6" />
         <div className="flex items-center md:flex-col md:items-start">
@@ -22,7 +22,7 @@ export default function SubNavbar() {
       </div>
       
       <ul className=" lg:visible flex justify-start">
-            <li onClick={() => {
+            <li onMouseEnter={() => {
                 setHover(!hover);
               }}
               onMouseLeave={() => {
@@ -75,11 +75,11 @@ export default function SubNavbar() {
       </ul>
 
       <ul className=" pb-2 flex cursor-pointer">
-        <li className='hidden lg:block mr-4'>Crear tu cuenta</li>
-        <li className='hidden lg:block mr-4'>Ingresa</li>
+        <li className='hidden lg:block mr-4'> <Link href='/create-account'><a>Crear tu cuenta</a></Link> </li>
+        <li className='hidden lg:block mr-4'> <Link href='/sign-in'><a>Ingresa</a></Link></li>
         <li className='hidden lg:block mr-4'>Mis compras</li>
       </ul>
-      <div className={hover || subcategoryMenu ? 'absolute right-0 top-12  w-screen h-screen  bg-black opacity-25 text-white z-10' : 'hidden'}></div>
+      <div className={hover || subcategoryMenu ? 'absolute right-0 top-12  w-screen h-[150vh] bg-black opacity-25 text-white z-10' : 'hidden'}></div>
       <div className="relative">
       
       </div>

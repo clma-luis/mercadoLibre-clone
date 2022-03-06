@@ -76,72 +76,72 @@ export default function App() {
       >
         <SwiperSlide className='flex flex-col justify-center items-center'>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white">
-            <Sofa className="" width={45} heigh={45} />
-            <p className="text-sm">Hogar, Muebles y Jardín</p>
+            <Sofa className="" width={55} heigh={55} />
+            <p className="text-center text-sm">Hogar, Muebles y Jardín</p>
           </div>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white mb-8 ">
-            <Cellphone className="" width={45} heigh={45} />
-            <p className="text-sm">Celulares y teléfonos</p>
+            <Cellphone className="ml-6" width={55} heigh={55} />
+            <p className="text-center text-sm">Celulares y teléfonos</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='flex flex-col justify-center items-center'>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
-            <Screen className="" width={45} heigh={45} />
-            <p className="text-sm">Computación</p>
+            <Screen className="ml-2" width={55} heigh={55} />
+            <p className="text-center text-sm">Computación</p>
           </div>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
-            <Microphone className="" width={45} heigh={45} />
-            <p className="text-sm">Autos, Motos y Otros</p>
+            <Microphone className="" width={55} heigh={45} />
+            <p className="text-center text-sm">Autos, Motos y Otros</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='flex flex-col justify-center items-center'>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
             <Oven className="" width={55} heigh={65} />
-            <p className="text-sm">Autos, Motos y Otros</p>
+            <p className="text-center text-sm">Electrodomésticos</p>
           </div>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
-            <Shirt className="" width={45} heigh={45} />
-            <p className="text-sm">Autos, Motos y Otros</p>
+            <Shirt className="" width={55} heigh={55} />
+            <p className="text-center text-sm">Ropa y Accesorios</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='flex flex-col justify-center items-center'>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
             <Sport className="" width={45} heigh={45} />
-            <p className="text-sm">Autos, Motos y Otros</p>
+            <p className="text-center text-sm">Deportes y Fitness</p>
           </div>
-          <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
-            <Car className="" width={45} heigh={45} />
-            <p className="text-sm">Autos, Motos y Otros</p>
-          </div>
-        </SwiperSlide>
-        <SwiperSlide className='flex flex-col justify-center items-center'>
-          <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
-            <Toys className="" width={45} heigh={45} />
-            <p className="text-sm">Autos, Motos y Otros</p>
-          </div>
-          <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
-            <Watch className="" width={45} heigh={45} />
-            <p className="text-sm">Autos, Motos y Otros</p>
+          <div className=" flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
+            <Car className="" width={50} heigh={50} />
+            <p className="text-center text-sm">Autos, Motos y Otros</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='flex flex-col justify-center items-center'>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
-            <Beauty className="" width={60} heigh={50} />
-            <p className="text-sm">Autos, Motos y Otros</p>
+            <Toys className="" width={55} heigh={55} />
+            <p className="text-center text-sm">Juegos y juguetes</p>
           </div>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
-            <Gamer className="" width={45} heigh={45} />
-            <p className="text-sm">Autos, Motos y Otros</p>
+            <Watch className="ml-4" width={55} heigh={55} />
+            <p className="text-center text-sm">Joyas y Relojes</p>
           </div>
         </SwiperSlide>
         <SwiperSlide className='flex flex-col justify-center items-center'>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
-            <SteeringWheel className="" width={50} heigh={50} />
-            <p className="text-sm">Autos, Motos y Otros</p>
+            <Beauty className=" ml-10 flex justify-center" width={70} heigh={50} />
+            <p className="text-center text-sm">Belleza y cuidado personal</p>
           </div>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
-            <Pet className="" width={45} heigh={45} />
-            <p className="text-sm">Autos, Motos y Otros</p>
+            <Gamer className="" width={55} heigh={555} />
+            <p className="text-center text-sm">Consolas y videojuegos</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className='flex flex-col justify-center items-center'>
+          <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
+            <SteeringWheel className="" width={55} heigh={50} />
+            <p className="text-center text-sm">Autos, Motos y Otros</p>
+          </div>
+          <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
+            <Pet className="" width={55} heigh={55} />
+            <p className="text-center text-sm">Animales y mascotas</p>
           </div>
         </SwiperSlide>
        
@@ -149,11 +149,11 @@ export default function App() {
         <SwiperSlide className='flex flex-col justify-center items-center'>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
             <Art className="" width={45} heigh={45} />
-            <p className="text-sm">Autos, Motos y Otros</p>
+            <p className="text-center text-sm">Antigüedades y colecciones</p>
           </div>
           <div className="flex h-40 w-40 cursor-pointer flex-col items-center justify-center fill-current text-blue-500 hover:bg-blue-500 hover:text-white ">
             <BabyClothes className="" width={45} heigh={45} />
-            <p className="text-sm">Autos, Motos y Otros</p>
+            <p className="text-center text-sm">Bebés</p>
           </div>
         </SwiperSlide>
       </Swiper>

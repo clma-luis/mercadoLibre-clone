@@ -3,7 +3,7 @@ import Link from "next/link"
 export default function SubMenu({change}){
   return (
     <div className="relative bottom-8">
-       <div className={change  ? 'text-black absolute select-none p-5 -bottom-30  pl-7 flex flex-col left-7 max-h-max w-100 bg-white' : 'hidden'}>
+       <div className={change  ? 'text-black absolute select-none p-5 -bottom-30  pl-7 flex flex-col left-6 h-[36rem] w-100 bg-white rounded-tr-lg rounded-br-lg ' : 'hidden'}>
         <div className="mb-5 pl-7 border-b-4">
             <h3 className="text-xl mb-4 mt-4 select-none">Tecnología</h3>
         </div>

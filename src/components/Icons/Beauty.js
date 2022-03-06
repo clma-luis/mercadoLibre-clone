@@ -1,17 +1,29 @@
 export default function Beauty(props) {
      return(
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" {...props}>
-          <title>{"lipstick"}</title>
-          <g data-name="Layer 2">
-            <path d="M22.62 9.07A1.07 1.07 0 0 0 21.54 8a1 1 0 0 0-.89.49l-3.92 3.93a2.15 2.15 0 0 0-.64 1.58v5.62H15V37h8.71V19.58h-1.09ZM17.18 14a1 1 0 0 1 .32-.77l3.92-3.93.09-.09v10.37h-4.33Zm5.44 21.95h-6.53v-9.83h6.53Zm0-13.06h-6.53v-2.22h6.53ZM24.8 22.85V37h8.7V22.85Zm7.62 13.06h-6.54v-12h6.54Z" />
-            <path d="M26.97 25.03h1.09v5.44h-1.09zM26.97 31.56h1.09v1.09h-1.09z" />
-            <path
-              style={{
-                fill: "none",
-              }}
-              d="M0 0h48v48H0z"
-            />
-          </g>
-        </svg>
+      <svg
+      id="Icons"
+      xmlns="http://www.w3.org/2000/svg"
+      x={0}
+      y={0}
+      viewBox="0 0 30 26"
+      style={{
+        enableBackground: 'new 0 0 32 32',
+        fill: 'none'
+      }}
+      
+      xmlSpace="preserve"
+      {...props}
+    >
+     <style>
+        {
+          `.st0{fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}`
+        }
+      </style>
+      <path stroke="currentColor" d="M3 7.294V16h6V4M.5 16.5h11v7H.5z" />
+      <path
+        stroke="currentColor"
+        d="M7.266 6.8c-.799.778-1.677 1.286-2.432 1.496-.775.216-1.295.092-1.559-.178-.263-.27-.372-.794-.135-1.564.23-.748.763-1.612 1.562-2.39.799-.776 1.677-1.284 2.432-1.494.775-.216 1.296-.093 1.559.178.263.27.372.794.135 1.563-.23.75-.763 1.613-1.562 2.39z"
+      />
+    </svg>
       )
 } 
